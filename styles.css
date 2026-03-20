@@ -1,0 +1,72 @@
+styles.css
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #444;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+section {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.vida, .gastronomia, .eventos {
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+}
+
+.vida h2, .gastronomia h2, .eventos h2 {
+  color: #444;
+  border-bottom: 2px solid #999;
+}
